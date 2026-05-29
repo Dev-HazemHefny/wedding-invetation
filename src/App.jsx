@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ScrollProgress, CursorGlow } from "./components/wedding/Effects";
+import { ScrollProgress, CursorGlow } from "./components/wedding/effects";
 // import { MusicPlayer } from "./components/wedding/MusicPlayer";
 import { Navbar } from "./components/wedding/Navbar";
 import { Hero } from "./components/wedding/Hero";
