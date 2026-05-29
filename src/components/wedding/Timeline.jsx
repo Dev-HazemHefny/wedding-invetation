@@ -32,7 +32,7 @@ export function Timeline() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true, margin: "-80px" }}
                     transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                    className="ml-10 w-full overflow-hidden rounded-2xl md:ml-0 md:w-1/2"
+                    className="ml-10 w-[calc(100%-2.5rem)] overflow-hidden rounded-2xl md:ml-0 md:w-1/2"
                   >
                     <div className="group relative overflow-hidden rounded-2xl glow-border">
                       <img
