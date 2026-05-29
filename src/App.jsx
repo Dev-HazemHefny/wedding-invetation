@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ScrollProgress, CursorGlow } from "./components/wedding/Effects";
-import { MusicPlayer } from "./components/wedding/MusicPlayer";
+// import { MusicPlayer } from "./components/wedding/MusicPlayer";
 import { Navbar } from "./components/wedding/Navbar";
 import { Hero } from "./components/wedding/Hero";
 import { Timeline } from "./components/wedding/Timeline";
@@ -30,7 +30,7 @@ function App() {
       <Loader show={loading} />
       <ScrollProgress />
       <CursorGlow />
-      <MusicPlayer autoStart={!loading} />
+      {/* <MusicPlayer autoStart={!loading} /> */}
       <Navbar />
       <main>
         <Hero />
